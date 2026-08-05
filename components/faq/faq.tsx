@@ -56,7 +56,7 @@ export default function FAQ() {
           </p>
         </div>
 
-        <Accordion type="single" className="w-full">
+        <Accordion  className="w-full">
           {faqs.map((faq, index) => (
             <AccordionItem value={`item-${index}`} key={faq.question}>
               <AccordionTrigger className="text-lg font-medium">
