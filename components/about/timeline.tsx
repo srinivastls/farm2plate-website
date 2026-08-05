@@ -31,7 +31,7 @@ export default function Timeline() {
 
         </div>
 
-        <div className="relative">
+        <div className="relative overflow-hidden">
 
           <div className="absolute left-5 top-0 h-full w-1 rounded bg-green-200"></div>
 

@@ -83,7 +83,7 @@ export default function Journey() {
 
         </div>
 
-        <div className="relative">
+        <div className="relative overflow-hidden">
 
           {/* Vertical Timeline */}
           <div className="absolute left-8 top-0 hidden h-full w-1 rounded-full bg-green-200 lg:block"></div>
@@ -120,13 +120,13 @@ export default function Journey() {
                   className="relative flex items-start gap-8"
                 >
 
-                  <div className="z-10 flex h-16 w-16 items-center justify-center rounded-full bg-green-600 text-white shadow-xl">
+                  <div className="z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-green-600 text-white shadow-xl">
 
                     <Icon className="h-8 w-8" />
 
                   </div>
 
-                  <div className="flex-1 rounded-3xl border bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+                  <div className="min-w-0 flex-1 rounded-3xl border bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
 
                     <div className="mb-3 text-sm font-semibold uppercase tracking-wide text-green-600">
                       Step {index + 1}

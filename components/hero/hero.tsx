@@ -117,7 +117,7 @@ export default function Hero() {
           className="relative flex flex-1 items-center justify-center"
         >
 
-          <div className="relative">
+          <div className="relative overflow-hidden">
 
             {/* Phone */}
 
